@@ -1,0 +1,17 @@
+{
+  "name": "rollup-incremental-multi",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "rm -rf dist && node index.js",
+    "dev": "rm -rf dist && rollup -cw"
+  },
+  "dependencies": {
+    "rollup": "latest",
+    "@rollup/plugin-multi-entry": "latest",
+    "@rollup/plugin-node-resolve": "latest",
+    "@mprt/rollup-plugin-incremental": "latest",
+    "lit-element": "latest",
+    "rollup-plugin-cleanup": "latest"
+  }
+}
